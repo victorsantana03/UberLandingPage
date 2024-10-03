@@ -6,8 +6,8 @@ export default {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'background-home': "url('/src/assets/background-home.png')",
+      fontFamily:{
+        title:["Poppins", "sans-serif"],
       }
     },
   },

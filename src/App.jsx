@@ -3,7 +3,7 @@ import { Home } from "./components/home"
 
 function App() {
   return (
-    <div>
+    <div className="font-title">
       <Home/>
     </div>
   )

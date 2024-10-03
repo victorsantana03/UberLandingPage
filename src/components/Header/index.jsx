@@ -9,7 +9,7 @@ export function Header() {
             <header>
                 <nav className="bg-black w-full h-24 flex justify-around">
                     <div className="flex h-full gap-10">
-                        <ul className="text-white flex items-center gap-10">
+                        <ul className="hidden text-white items-center gap-10 xl:flex">
                             <img src={LogoUber} className="w-19" />
                             <div className="flex items-center gap-1">
                                 <li className="text-lg"><a href="">Company </a></li>
