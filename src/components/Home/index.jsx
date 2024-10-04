@@ -12,9 +12,9 @@ export function Home() {
                 <section className='bg-cover h-screen' style={{ backgroundImage: `url(${BackGroundImage})` }}>
                     <Header />
 
-                    <div className="w-2/5 ml-44 mt-40 rounded-xl">
+                    <div className="w-2/5 ml-32 mt-20 rounded-xl">
 
-                        <div className="bg-white h-32 flex rounded-t-xl">
+                        <div className="bg-white h-24 xl:h-32 flex rounded-t-xl">
                             <ul className="flex justify-around items-center w-full">
                                 <div className="flex flex-col items-center text-xl gap-1 ">
                                     <FaSignal className="xl:text-3xl cursor-pointer" />
@@ -33,10 +33,10 @@ export function Home() {
                         </div>
 
                         <div className="bg-slate-400/[.70] h-96 flex flex-col justify-center gap-2 xl:gap-8 pl-4 xl:pl-20 pr-4 xl:pr-16 rounded-b-xl">
-                            <h1 className="font-medium text-xl xl:text-5xl ">Get in the driver's seat and get paid</h1>
+                            <h1 className="font-medium text-lg sm:text-3xl xl:text-5xl ">Get in the driver's seat and get paid</h1>
                             <p className="text-base text-slate-300">Drive on the platform with the largest network of active riders.</p>
 
-                            <button className=" bg-black text-white text-sm font-bold w-2/3 sm:w-44 rounded py-2 sm:py-4 sm:px-7">Sign Up to Drive</button>
+                            <button className=" bg-black text-white text-sm font-bold w-2/3 sm:w-44 rounded py-2 sm:py-4 sm:px-7 hover:bg-slate-900">Sign Up to Drive</button>
 
                             <div className="flex flex-col max-w-max gap-px">
                                 <p className="border-b-2 border-black border-dotted ">Learn more about driving and delivering</p>
