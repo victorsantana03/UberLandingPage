@@ -4,6 +4,7 @@ import { FaSignal } from "react-icons/fa";
 import { MdFoodBank } from "react-icons/md";
 import { FaCar } from "react-icons/fa";
 import { MidSection } from "../MidSection";
+import { BottomSection } from "../BottomSection";
 
 export function Home() {
     return (
@@ -12,7 +13,7 @@ export function Home() {
                 <section className='bg-cover h-screen' style={{ backgroundImage: `url(${BackGroundImage})` }}>
                     <Header />
 
-                    <div className="w-2/5 ml-32 mt-20 rounded-xl">
+                    <div className="w-2/5 ml-40 mt-20 rounded-xl">
 
                         <div className="bg-white h-24 xl:h-32 flex rounded-t-xl">
                             <ul className="flex justify-around items-center w-full">
@@ -39,13 +40,15 @@ export function Home() {
                             <button className=" bg-black text-white text-sm font-bold w-2/3 sm:w-44 rounded py-2 sm:py-4 sm:px-7 hover:bg-slate-900">Sign Up to Drive</button>
 
                             <div className="flex flex-col max-w-max gap-px">
-                                <p className="border-b-2 border-black border-dotted ">Learn more about driving and delivering</p>
+                                <a href="#" className="border-b-2 border-black border-dotted ">Learn more about driving and delivering</a>
                             </div>
                         </div>
                     </div>
                 </section>
-                <MidSection/>
             </main>
+            <MidSection/>
+            
+            <BottomSection/>
         </div>
     )
 }

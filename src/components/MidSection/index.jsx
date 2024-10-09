@@ -6,10 +6,10 @@ import trafficImage from "../../assets/images/traffic.png"
 
 export function MidSection() {
     return (
-        <section className='absolute h-screen w-full overflow-x-hidden'>
+        <section className='h-screen w-full overflow-x-hidden'>
 
             <div className='h-24 bg-cover sm:h-40 xl:h-72 bg-center w-screen' style={{ backgroundImage: `url(${backgroundImage})` }}>
-                <div className="w-1/2 flex flex-col gap-6 text-left ml-52 pt-20">
+                <div className="w-1/2 flex flex-col gap-6 text-left ml-40 pt-20">
                     <h1 className="text-5xl font-bold">Uber For Business</h1>
                     <p className="font-medium text-lg">Trasnform the way your company moves and feeds its people.</p>
                     <button className="bg-black flex items-center justify-center gap-2 text-white text-sm font-bold w-2/3 sm:w-44 rounded py-2 sm:py-4 sm:px-7 hover:bg-slate-900">
@@ -29,8 +29,8 @@ export function MidSection() {
                             <p className="text-gray-700">With every safety feature and every standard in our Community Guidelines,
                                 we're committed to helping to create a safe environment for our users.</p>
                             <div className="flex gap-9">
-                                <p className="border-b-2 border-black border-dotted">Read About Our Community Guidelines</p>
-                                <p className="border-b-2 border-black border-dotted">See all safety features</p>
+                                <a href="#"className="border-b-2 border-black border-dotted">Read About Our Community Guidelines</a>
+                                <a href="#"className="border-b-2 border-black border-dotted">See all safety features</a>
                             </div>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ export function MidSection() {
                             <p className="text-gray-700">The app is available in thousands of cities worldwide, so you can request a
                                 ride even when you’re far from home.</p>
                             <div className="flex">
-                                <p className="border-b-2 border-black border-dotted">View All Cities</p>
+                                <a href="#" className="border-b-2 border-black border-dotted">View All Cities</a>
                             </div>
                         </div>
                     </div>
